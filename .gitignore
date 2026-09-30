@@ -1,0 +1,22 @@
+﻿# Environment variables — NEVER commit secrets
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Audio temp files
+input.wav
+reply.mp3
+
+# IDE / OS files
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
